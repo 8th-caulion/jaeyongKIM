@@ -1,0 +1,16 @@
+#<head>
+    <title> 김재용의 블로그 </title>
+    <h1> 김재용의 블로그 </h1>
+    <h2> 항상 행복하자구용 ~ </h2>
+</head>
+
+<body>
+    {% block contents %}
+    {% endblock %}
+</body>
+
+<footer>
+    <h4><a href="{% url 'app1' %}">홈으로 가기</a></h4>
+    <h4><a href="{% url 'app2' %}">자기소개 보러가기</a></h4>
+    <h4><a href="{% url 'app3' %}">자기소개 보러가기</a></h4>
+</footer>
